@@ -7,8 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @SpringBootApplication
 public class PicpayApplication {
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         SpringApplication.run(PicpayApplication.class, args);
     }
 }
